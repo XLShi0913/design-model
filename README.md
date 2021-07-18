@@ -69,4 +69,5 @@
 * java语言并没有做事件委托相关的封装，这块需要自己实现，可以用反射，参考了这篇博文：https://blog.csdn.net/yanshujun/article/details/6494447
 
 ### 抽象工厂模式 `p11.abstract.factory`
-
+基于简单工厂模式，将类名作为字符串变量传入，避免了swith的判断。
+DI自动注入：即不显式地在程序里创建对象，而是通过IOC容器（BeanFactory）来生成对象
